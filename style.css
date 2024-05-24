@@ -84,8 +84,13 @@ body {
 
 	margin: 0;
 
+	
+	background-image: url('/media/generic_space_background.gif');
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+.body {
 	min-height: 100vh;
-
 }
 
 
@@ -292,7 +297,7 @@ a.nav:hover {
 
 .row.content {
 
-	height: 450px;
+	/* height: 450px; */
 
 }
 
